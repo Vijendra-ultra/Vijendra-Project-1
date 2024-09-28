@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Crimson Text",sans-serif;
+    color: #333333;
+    line-height: 1.2;
+    font-size: 2rem;
+    overflow-x: hidden;
+
+    scroll-behavior: smooth;
+}
+
+p {
+    color: #333333;
+    font-size: 2.0rem;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}
+
+.Section-major {
+    background-color: #F7F7F7;
+    padding: 9.6rem 0;
+
+    
+}
+
+.How-it-works--heading,
+.Heading--primary,
+.tertiary-heading {
+    font-family: "Playfair Display",sans-serif;
+    font-weight: 600;
+    
+    margin-bottom: 2.4rem; 
+}
+
+.sub-heading {
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: 0.75px;
+}
+
+.card-hover-effect:hover {
+    transform: translateY(-3%);
+    box-shadow: 0 2.4rem 2.4rem rgba(0, 0, 0, 0.075);   
+    background-color: #fff; 
+    
+}
+
+.margin--left-xll {
+    margin-left: 15.2rem;
+}
+
+.t-c {
+    text-align: center;
+}
+
+.weak--text {
+  color: #888;
+  font-size: 1.6rem;
+  font-family: "Roboto",serif;
+}
+
+/* ************************************************** */
+/*      REUSABLE GRID        */
+/* ************************************************** */
+.grid {
+    display: grid;
+    /* gap: 9.6rem; */
+}
+
+.grid-gap-xl {
+   gap:9.6rem;
+}
+
+.grid-gap {
+    gap:4.8rem;
+}
+
+.col--1-grid {
+    grid-template-columns: 1fr;
+}
+
+.col--2-grid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.col--3-grid {
+    grid-template-columns: repeat(3,1fr);
+}
+
+.col--4-grid {
+    grid-template-columns: repeat(4,1fr);
+}
+
+.col--5-grid {
+    grid-template-columns: repeat(5,1fr);
+}
+.align-grid {
+    align-items: center;
+}
+
+.row-2-grid {
+    grid-template-columns: repeat(1fr,2);
+}
+
+/* ************************************************** */
+/*     REUSABLE FLEX BOX      */
+/* ************************************************** */
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.gap {
+    gap:0.6rem;
+}
+
+.only-a-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.al--center {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.f-s {
+    justify-content: flex-start;
+}
+
+.m-b-s {
+    margin-bottom: 1.4rem;
+}
+
+/* ************************************************** */
+/*     REUSABLE OTHER STYLES     */
+/* ************************************************** */
+
+strong {
+    font-weight: 550;
+}
+
+.mar-top{
+    margin-top: 1.2rem;
+}
+
+grid:not(:last-child) {
+    margin-bottom: 6.4rem;
+}
